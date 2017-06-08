@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>perCenter</title>
+		
+		<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link href="css/myStyle.css" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    <style>
+	    	.centerHeader{
+	    		height: auto;
+	    		background-color: #EEEEEE;
+	    	}
+	    	.centerHeader .storeHeader{
+	    		height: auto;
+	    		background: url(img/center/bg.jpg) no-repeat 0 0;
+	    		background-size : 100% 100%;
+	    	}
+	    	.centerHeader .img-thumbnail{
+	    		background-color: rgba(0,0,0,0);
+	    		width: 0.55rem;
+	    		
+	    	}
+	    	.centerTop{
+	    		height: 1.36rem;
+	    	}
+	    	
+	    	.centerDetail{
+	    		float: right;
+	    		font-size: 0.13rem;
+	    		padding-bottom: 0.1rem;
+	    		padding-right: 0.1rem;
+	    	}
+	    	.centerDetail img{
+	    		width: 0.12rem;
+	    	}
+	    	.centerDetail span,.centerDetail img {
+	    		vertical-align: middle;
+	    		font-size: 0.11rem;
+	    	}
+	    	.perList{
+	    		clear: both;
+	    		background-color: #fff;
+	    		height: auto;
+	    		line-height: 0.19rem;
+	    		text-align: center;
+	    		padding: 0.05rem 0;
+	    	}
+	    	.storeHeader .num{
+	    		font-size: 0.16rem;
+	    		color: #666;
+	    	}
+	    	.storeHeader .perItem{
+	    		color: #999999;
+	    		font-size: 0.13rem;
+	    	}
+	    	
+	    	.myOrder{
+	    		background-color: #fff;
+	    		clear: both;
+	    		height: 0.336rem;
+	    	}
+	    	
+	    	.right{
+	    		float: right;
+	    	}
+	    	
+	    	.right i{
+	    		color: #ccc;
+	    	}
+	    	
+	    	.myOrder span{
+	    		line-height: 0.336rem;
+	    	}
+	    	
+	    	.order{
+	    		clear: both;
+	    		background-color: #EEEEEE;
+	    		padding: 0.1rem 0 0.1rem 0;
+	    		height: auto;
+	    	}
+	    	
+	    	img{
+	    		width: 0.26rem;
+	    	}
+	    </style>
+	</head>
+	<body>
+		<div class="centerHeader">
+			<div class="storeHeader container-fluid p0 col-sm-12 col-xs-12 centerTop">
+				<div class="row m0">
+					<div class="col-sm-3 col-xs-3 storeLogo">
+						<img src="img/center/centerPic.jpg" class="img-responsive img-circle img-thumbnail" alt="" />
+					</div>
+					<div class="col-sm-4 col-xs-4 logoName p0">
+						<p class="masterName">YES I AM</p>
+						<span>999人关注</span>
+					</div>
+					<div class="col-sm-2 col-xs-2"></div>
+					<div class="col-sm-3 col-xs-3 p0"></div>
+				</div>
+				<div class="centerDetail">
+					<a href="">
+						<img src="img/center/6.png" class="" alt="" />
+						<span>账户管理、收货地址&gt</span>
+					</a>	
+				</div>
+				<div class="row perList m0">
+					<div class="col-sm-4 col-xs-4">
+						<span class="num">12</span><br />
+						<span class="perItem">关注商品</span>
+					</div>
+					<div class="col-sm-4 col-xs-4">
+						<span class="num">0</span><br />
+						<span class="perItem">关注店铺</span>
+					</div>
+					<div class="col-sm-4 col-xs-4">
+						<span class="num">9</span><br />
+						<span class="perItem">浏览记录</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid order">
+			<div class="myOrder container-fluid">
+				<div class="row">
+					<div class="col-sm-5 col-xs-5">
+						<a href="">
+							<img src="img/center/center01.png" alt="">
+							<span>我的订单</span>
+						</a>
+						
+					</div>
+					<div class="col-sm-2 col-xs-2"></div>
+					<div class="col-sm-5 col-xs-5">
+						<a href="" class="right">
+							<span class="cheakOrder">
+								查看全部订单
+								<i class="iconfont">&#xe65f;</i>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="row myOrderlist">
+					<div class="col-sm-3 col-xs-3">
+						<a href="">
+							<img src="img/center/centerL (1).png" class="center-block"/>
+							<span>待付款</span>
+						</a>
+					</div>
+					<div class="col-sm-3 col-xs-3">
+						<a href="">
+							<img src="img/center/centerL (2).png" class="center-block"/>
+							<span>待付款</span>
+						</a>
+					</div>
+					<div class="col-sm-3 col-xs-3">
+						<a href="">
+							<img src="img/center/centerL (3).png" class="center-block"/>
+							<span>待付款</span>
+						</a>
+					</div>
+					<div class="col-sm-3 col-xs-3">
+						<a href="">
+							<img src="img/center/centerL (4).png" class="center-block"/>
+							<span>待付款</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid mine p0">
+			<div class="myPoint">
+				<div class="row">
+					<div class="col-sm-10 col-xs-10">
+						<a href="">
+							<img src="img/center/center02.png"/>
+							<span>我的积分</span>
+						</a>
+					</div>
+					<div class="col-sm-2 col-xs-2">
+						<a href="" class="right"><i class="iconfont">&#xe65f;</i></a>
+					</div>
+				</div>
+			</div>
+			<div class="myCoupon">
+				<div class="row p0">
+					<div class="col-sm-10 col-xs-10">
+						<a href="">
+							<img src="img/center/center03.png"/>
+							<span>我的优惠券</span>
+						</a>
+					</div>
+					<div class="col-sm-2 col-xs-2">
+						<a href="" class="right"><i class="iconfont">&#xe65f;</i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid mine p0 lastList">
+			<div class="myPoint">
+				<div class="row">
+					<div class="col-sm-10 col-xs-10">
+						<a href="">
+							<img src="img/center/center04.png"/>
+							<span>成为分销</span>
+						</a>
+					</div>
+					<div class="col-sm-2 col-xs-2">
+						<a href="" class="right"><i class="iconfont">&#xe65f;</i></a>
+					</div>
+				</div>
+			</div>
+			<div class="myCoupon">
+				<div class="row p0">
+					<div class="col-sm-10 col-xs-10">
+						<a href="">
+							<img src="img/center/center05.png"/>
+							<span>选择店铺</span>
+						</a>
+					</div>
+					<div class="col-sm-2 col-xs-2">
+						<a href="" class="right"><i class="iconfont">&#xe65f;</i></a>
+					</div>
+				</div>
+			</div>
+			<div class="myCoupon">
+				<div class="row p0">
+					<div class="col-sm-10 col-xs-10">
+						<a href="">
+							<img src="img/center/center06.png"/>
+							<span>我的分销</span>
+						</a>
+					</div>
+					<div class="col-sm-2 col-xs-2">
+						<a href="" class="right"><i class="iconfont">&#xe65f;</i></a>
+					</div>
+				</div>
+			</div><div class="myCoupon">
+				<div class="row p0">
+					<div class="col-sm-10 col-xs-10">
+						<a href="">
+							<img src="img/center/center07.png"/>
+							<span>我的店铺</span>
+						</a>
+					</div>
+					<div class="col-sm-2 col-xs-2">
+						<a href="" class="right"><i class="iconfont">&#xe65f;</i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3">
+					<div class="home">
+						<a href="index.html">
+							<img src="img/2-1.png" class="img-responsive .center-block"/>
+							<span class="homeTxt">首页</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3">
+					<div class="home">
+						<a href="fenlei.html">
+							<img src="img/4.png "class="img-responsive .center-block"/>
+							<span class="homeTxt">分类</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3">
+					<div class="home">
+						<a href="shoppingNULL.html">
+							<img src="img/5.png "class="img-responsive .center-block"/>
+							<span class="homeTxt">购物车</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3">
+					<div class="home home1">
+						<a href="#">
+							<img src="img/3-1.png" class="img-responsive .center-block"/>
+							<span class="homeTxt">我</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="toTop">
+			<img src="img/7.png"/>
+		</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="Bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/myJs.js"></script>
+	</body>
+</html>

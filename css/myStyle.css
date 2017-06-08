@@ -1,0 +1,670 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width:359px) and (min-width:320px) {
+    html,body{
+        font-size: 107px !important;
+    }
+}
+@media screen and (max-width:374px) and (min-width:360px) {
+    html,body{
+        font-size: 112.5px !important;
+    }
+}
+@media screen and (max-width:413px) and (min-width:375px) {
+   html,body{
+        font-size: 117px !important;
+    }
+}
+@media screen and (max-width:639px)  and (min-width:414px){
+   html,body{
+        font-size: 129.2px !important;
+    }
+}@media screen and (min-width:640px) {
+   html,body{
+        font-size: 200px !important;
+    }
+}
+
+.viewport{
+	max-width:640px; 
+	min-width:300px; 
+	margin:0 auto;
+	overflow: hidden;
+}  
+
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: #8C8C8C;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.p0{
+	padding: 0;
+}
+
+.m0{
+	margin: 0;
+}
+/*
+.row div{
+	padding: 0;
+}*/
+
+.iconImg{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+
+.topHead{
+	margin-bottom: 0.1rem;
+	background-color: #FFF;
+	/*width: 750px;*/
+}
+
+.header{
+	height: 0.52rem;
+	line-height: 0.52rem;
+	margin-bottom: 0.10rem;
+}
+
+.header *{
+	font-size: 0.18rem;
+	text-align: center;
+	text-indent: -.2em;
+	color: hotpink;
+	vertical-align: middle;
+}
+
+.header i{
+	font-size: 0.27rem;
+}
+
+.header .search,.gps,.contact{
+	vertical-align: middle;
+	margin-top: 0.10rem;
+}
+
+.header .gps span{
+	font-size: 0.15rem;
+}
+
+.header .search{
+	margin-top: 0.20rem;
+	height: 0.37rem;
+	overflow: hidden;
+}
+
+ .inputSearch{
+ 	height: 0.37em;
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+.header .search .serachBtn i{
+	color: #fff;
+	font-size: 0.17rem;
+}
+.header .search .serachBtn{
+	border-radius: 0.50rem 0 0 0.50rem;
+	border:0.01rem solid hotpink;
+	background-color: hotpink;
+	text-indent: .2em;
+	height: 0.23rem;
+}
+
+.header .search .serachBtn span{
+	height: 0.23rem;
+}
+
+.header .search .serachTxt{
+	text-align: left;
+	text-indent: .05em;
+	height: 0.37rem;
+	border: 0.02rem solid hotpink;
+	border-radius: 0 0.50rem 0.50rem 0;
+	outline: none;
+	border-left: none;
+	font-size: 0.12rem;
+}
+
+.carouselBox{
+	margin-bottom: 0.10rem;
+}
+
+.carouselList li{
+	vertical-align: middle;
+	border:0.02rem solid white;
+	border-radius: 50%;
+	width: 0.1rem;
+	height: 0.1rem;
+}
+.carouselList .active{
+	width: 0.16rem;
+	height: 0.16rem;
+	background-color: rgba(0,0,0,0);
+	border:0.02rem solid white;
+	border-radius: 50%;
+	
+}
+
+.recommend .row{
+	/*padding: 0 0.2rem;*/
+}
+
+.midHead{
+	padding: 0.1rem 0;
+	background-color: #EEEEEE;
+	margin: 0 auto;
+}
+
+.midHead-list-first{
+	padding-right: 0;
+}
+.midHead-list-last{
+	padding-left: 0.01rem;
+}
+.secKill{
+	margin: 0.10rem 0;
+}
+.secKill-clock{
+	height: 0.2rem;
+	line-height: 0.2rem;
+}
+
+.secKill-clock span,i{
+	color: hotpink;
+	vertical-align: middle;
+}
+.secKill-clock span{
+	font-size: 0.18rem;
+}
+
+.secKill-clock i{
+	font-size: 0.2rem;
+}
+
+.secKill .row div{
+	padding: 0;
+}
+.killTime{
+	display: inline-block;
+}
+.killTime span{
+	color: #333333;
+	font-size: 0.10rem;
+	text-align: center;
+}
+
+.killTime .killHour{
+	display: inline-block;
+	text-align: center;
+	width: 0.18rem;
+	height: 0.17rem;
+	background-color: #EEEEEE;
+	border-radius: 0.05rem;
+}
+
+.sale{
+	margin: 0;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #FFF;
+	background-color: hotpink;
+	border-radius: 0.1rem;
+	font-size: 0.12rem;
+}
+
+.killGoods{
+	overflow: hidden;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+
+.goodsList{
+	width: 185%;
+	
+}
+
+.killGoods .goodsItem{
+	padding: 0;
+	padding-left: 0.1rem;
+	text-align: center;
+	
+}
+
+.goodsItem .old{
+	font-style: normal;
+	color: #CCCCCC;
+	font-size: 0.12rem;
+}
+
+.goodsItem .new{
+	font-style: normal;
+	color: #333;
+	font-size: 0.14rem;
+}
+
+.botHead{
+	background-color: #FFF;
+}
+.botHead .midHead-list-last{
+	border-left: 1px solid #eee;
+	padding-left: 0 px;
+}
+
+.find{
+	width: 0.3rem;
+	height: 0.22rem;
+}
+
+.findShop{
+	width: 100%;
+	overflow: hidden;
+}
+
+.shopList{
+	margin-top: 0.1rem;
+	width: 123%;
+	padding-bottom: 0.30rem;
+}
+
+.shopList li{
+	padding: 0;
+	padding-right: 0.10rem;
+	position: relative;
+}
+
+.shopList .ranking{
+	position: absolute;
+	right: 0.08rem;
+	bottom: -0.08rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	width: 0.4rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	/*background-image: url(../img/radius.png);
+	background-repeat: no-repeat;*/
+	/*background-size: 0.18rem 0.3rem;*/
+	border-radius: .4rem 0 0 .4rem;
+}
+.shopList .ranking1{
+	background-color: red;
+}
+.shopList .ranking2{
+	background-color: pink;
+	
+}
+.shopList .ranking3{
+	background-color: royalblue;
+	
+}
+.shopList .ranking4{
+	background-color: chocolate;
+	
+}
+
+.shopList .ranking5{
+	background-color: #9ACFEA;
+	
+}
+
+.shopList .shopItem{
+	position: absolute;
+	text-align: center;
+	bottom: -0.23rem;
+	font-size: 0.10rem;
+	display: block;
+	width: 0.5rem;
+}
+
+.guess{
+	width: 100%;
+	background-color: #eee;
+	padding-top: 0.07rem;
+	margin-bottom: 0.49rem;
+}
+
+.line{
+	margin: 0 0.1rem;
+	height: 0.01rem;
+	width: 92%;
+	background-color: #CCCCCC;
+	position: relative;
+	top:0.13rem;
+	/*z-index: 0;*/
+}
+
+.guess-title{
+	background-color: #EEEEEE;
+	text-align: center;
+	color: #ADADAD;
+	margin: 0.05rem;
+	display: block;
+	position: relative;
+	left: 37%;
+	width: 0.68rem;
+	font-size: 0.15rem;
+}
+
+.line,.guess-title{
+	vertical-align: middle;
+}
+
+.guessList{
+	margin: 0.10rem 0;
+	
+}
+
+.guessItem{
+	padding: 0;
+	margin-bottom: 0.1rem;
+}
+
+.guessBox{
+	padding: 0.05rem;
+	background-color: #fff;
+	text-align: left;
+	word-break: break-all;
+	margin-right: 0.1rem;
+}
+/*.itemLast{
+	margin-right: 0;
+}*/
+
+.guessBox .details{
+	font-size: 0.14rem;
+}
+.guessBox .price{
+	color: hotpink;
+}
+
+.footer{
+	padding-top: 0.05rem;
+	position: fixed;
+	bottom: 0rem;
+	height: 0.49rem;
+	width: 100%;
+	background-color: #fff;
+	z-index: 100;
+}
+
+.home{
+	margin: 0 auto;
+	text-align: center;
+}
+
+img{
+	margin: 0 auto;
+}
+
+.homeTxt{
+	display: block;
+	margin: 0.05rem 0;
+	color: #ADADAD;
+	vertical-align: baseline;
+}
+
+.toTop{
+	position: fixed;
+	right: 0.15rem;
+	bottom: 0.7rem;
+	width: 0.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	background-color: #FFF;
+	border: 0.01rem solid #EEEEEE;
+	border-radius: 0.5rem;
+	text-align: center;
+	display: none;
+	box-shadow: 0 0 3px #eee;
+}
+
+.home1 .homeTxt{
+	color: hotpink;
+}
+
+/*商店样式*/
+.storeHeader{
+	background-image: url(../img/store/top.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0 ;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 0.72rem;
+}
+
+.storeLogo{
+	margin: 0.11rem 0;
+	margin-left: 0.09rem;
+}
+
+.storeLogo img{
+	width: 0.5rem;
+}
+
+.storeHeader span,.masterName,b{
+	color: #fff;
+	text-align: left;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.storeHeader span{
+	font-size: 0.01rem;
+}
+
+.storeHeader .care{
+	text-align: center;
+	display: block;
+	width: 0.6rem;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	margin-left: 0.4rem;
+	margin-top: 0.24rem;
+	border: 1px solid #fff;
+	border-radius: 0.3rem;
+}
+
+.logoName{
+	margin: 0.154rem 0;
+}
+
+.storeList .row{
+	padding: 0.1rem;
+	margin-top: 0.72rem;
+}
+
+.storeList .row div{
+	text-align: center;
+	font-size: 0.12rem;
+	width: 0.6rem;
+	height: 0.2rem;
+	border: 1px solid #EEEEEE;
+	border-radius: 0.1rem;
+}
+
+.storeList .row .p0{
+	margin: 0 0.09rem;
+}
+
+.coupon{
+	margin-bottom: 0.12rem;
+}
+
+.footer .storeBtn{
+	border: none;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	width: 0.99rem;
+	height: 0.49rem;
+	line-height: 0.49rem;
+	text-align: center;
+	background-color: hotpink;
+	color: #FFF;
+	font-size: 0.15rem;
+}
+
+.footer img{
+	width: 0.21rem;
+}
+
+.footer ul li{
+	/*background-color: hotpink;*/
+	display: block;
+	text-align: center;
+	font-size: 0.16rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	padding: 0.05rem 0 ;
+}
+
+.storeItem{
+	background-color: #eee;
+	margin-bottom: 0.49rem;
+}
+
+/*个人中心*/
+.centerHeader{
+	height: auto;
+	background-color: #EEEEEE;
+}
+.centerHeader .storeHeader{
+	height: auto;
+	background: url(img/center/bg.jpg) no-repeat 0 0;
+	background-size : 100% 100%;
+}
+.centerHeader .img-thumbnail{
+	background-color: rgba(0,0,0,0);
+	width: 0.55rem;
+	
+}
+.centerTop{
+	height: 1.36rem;
+}
+
+.centerDetail{
+	float: right;
+	font-size: 0.13rem;
+	padding-bottom: 0.1rem;
+	padding-right: 0.1rem;
+}
+.centerDetail img{
+	width: 0.12rem;
+}
+.centerDetail span,.centerDetail img {
+	vertical-align: middle;
+	font-size: 0.11rem;
+}
+.perList{
+	clear: both;
+	background-color: #fff;
+	height: auto;
+	line-height: 0.19rem;
+	text-align: center;
+	padding: 0.05rem 0;
+}
+.storeHeader .num{
+	font-size: 0.16rem;
+	color: #666;
+}
+.storeHeader .perItem{
+	color: #999999;
+	font-size: 0.13rem;
+}
+
+.myOrder{
+	background-color: #fff;
+	clear: both;
+	height: 0.336rem;
+}
+
+.right{
+	float: right;
+}
+
+.right i{
+	color: #ccc;
+}
+
+.myOrder span{
+	line-height: 0.336rem;
+}
+
+.order{
+	clear: both;
+	background-color: #EEEEEE;
+	padding: 0.1rem 0 0.1rem 0;
+	height: auto;
+}
+
+.order .myOrderlist{
+	padding-top: 0.06rem;
+	padding-bottom: 0.06rem;
+}
+
+.order .myOrderlist span{
+	line-height: 0.18rem;
+}
+
+.order .myOrderlist img{
+	width: 0.2rem;
+}
+
+.cheakOrder,.myOrder i{
+	color: #CCCCCC;
+	font-size: 0.10rem;
+}
+
+.myOrderlist{
+	background-color: #fff;
+	text-align: center;
+}
+
+.mine{
+	background-color: #EEEEEE;
+	padding-top: 0.05rem;
+}
+.mine .row{
+	background-color: #FFF;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	margin: 0.01rem 0;
+}
+.lastList{
+	margin-bottom: 0.50rem;
+}
